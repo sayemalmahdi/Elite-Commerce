@@ -14,8 +14,9 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
-                    <strong>{{Auth::user()->name}} SUiiiiiii</strong>
+                    <!-- {{ __('You are logged in!') }} -->
+                    <strong>{{Auth::user()->name}} Admin Blade page</strong>
+                    
                 </div>
             </div>
         </div>
