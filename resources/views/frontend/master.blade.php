@@ -2270,9 +2270,9 @@
 
 
 
-    
+    <!-- Popup Message after open the website (Newsletter-Popup-Form), it shows/popup 10 secend later when you open the Home page, don't want this feature, so commented..  -->
 
-    <div class="container newsletter-popup-container mfp-hide" id="newsletter-popup-form">
+    <!-- <div class="container newsletter-popup-container mfp-hide" id="newsletter-popup-form">
         <div class="row justify-content-center">
             <div class="col-10">
                 <div class="row no-gutters bg-white newsletter-popup-content">
@@ -2301,7 +2301,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     
     <!-- Plugins JS File -->
