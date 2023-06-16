@@ -15,7 +15,7 @@
                     @endif
 
                     {{ __('You are logged in!') }}
-                    <strong>{{Auth::user()->name}} SUiiiiiii</strong>
+                    <strong>{{Auth::user()->name}} SUiiiiiii Laravel Default after Login Dashboard</strong>
                 </div>
             </div>
         </div>
