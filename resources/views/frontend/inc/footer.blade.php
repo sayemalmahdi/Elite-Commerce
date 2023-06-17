@@ -4,7 +4,7 @@
 	            	<div class="row">
 	            		<div class="col-sm-6 col-lg-3">
 	            			<div class="widget widget-about">
-	            				<img src="{{ asset('frontend')}}/assets/images/logo-footer.png" class="footer-logo" alt="Footer Logo" width="105" height="25">
+	            				<img src="{{ asset('frontend')}}/assets/images/custom-logo/1-logo.png" class="footer-logo" alt="Footer Logo" width="125" height="25">
 	            				<p>Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. </p>
 
 	            				<div class="social-icons">

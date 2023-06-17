@@ -51,7 +51,8 @@
                         </button>
 
                         <a href="{{ url('/')}}" class="logo">
-                            <img src="{{ asset('frontend')}}/assets/images/logo.png" alt="Molla Logo" width="105" height="25">
+                            <!-- <img src="{{ asset('frontend')}}/assets/images/logo.png" alt="Molla Logo" width="105" height="25"> -->
+                            <img src="{{ asset('frontend')}}/assets/images/custom-logo/5-logo.png" alt="Elite-Commerce Logo" width="215" height="25">
                         </a>
 
                         <nav class="main-nav">
