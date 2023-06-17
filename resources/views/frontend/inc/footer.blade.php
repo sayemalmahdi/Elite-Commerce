@@ -21,12 +21,12 @@
 	            			<div class="widget">
 	            				<h4 class="widget-title">Useful Links</h4><!-- End .widget-title -->
 
-	            				<ul class="widget-list">
-	            					<li><a href="about.html">About Molla</a></li>
-	            					<li><a href="#">How to shop on Molla</a></li>
-	            					<li><a href="#">FAQ</a></li>
-	            					<li><a href="contact.html">Contact us</a></li>
-	            					<li><a href="login.html">Log in</a></li>
+	            				<ul class="widget-list">	            					
+	            					<li><a href="#">How to shop on Elite-Commerce</a></li>
+									<li><a href="#">About Elite-Commerce</a></li>
+									<li><a href="#">Contact us</a></li>	            						            					
+	            					<li><a href="{{ route('register') }}">Register</a></li>
+									<li><a href="#">FAQ</a></li>
 	            				</ul><!-- End .widget-list -->
 	            			</div><!-- End .widget -->
 	            		</div><!-- End .col-sm-6 col-lg-3 -->
@@ -51,8 +51,8 @@
 	            				<h4 class="widget-title">My Account</h4><!-- End .widget-title -->
 
 	            				<ul class="widget-list">
-	            					<li><a href="#">Sign In</a></li>
-	            					<li><a href="cart.html">View Cart</a></li>
+	            					<li><a href="{{ route('login') }}">Sign In</a></li>
+	            					<li><a href="#">View Cart</a></li>
 	            					<li><a href="#">My Wishlist</a></li>
 	            					<li><a href="#">Track My Order</a></li>
 	            					<li><a href="#">Help</a></li>
@@ -65,7 +65,16 @@
 
 	        <div class="footer-bottom">
 	        	<div class="container">
-	        		<p class="footer-copyright">Copyright © 2023 Elite-Commerce Store. All Rights Reserved.</p><!-- End .footer-copyright -->
+					<p class="footer-copyright">
+						<?php
+							$year = date('Y');
+							$storeName = "Elite-Commerce Store. All Rights Reserved.";
+
+							echo "Copyright © $year $storeName";
+						?>
+					</p>	
+	        		<!-- <p class="footer-copyright">Copyright © 2023 Elite-Commerce Store. All Rights Reserved.</p> -->
+					
 	        		<figure class="footer-payments">
 	        			<img src="{{ asset('frontend')}}/assets/images/payments.png" alt="Payment methods" width="272" height="20">
 	        		</figure><!-- End .footer-payments -->
