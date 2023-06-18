@@ -24,6 +24,15 @@ Auth::routes();
 
 Route::get('/', [App\Http\Controllers\Frontend\HomeController::class, 'home']);
 
+Route::get('/custom-login', [App\Http\Controllers\Auth\LoginController::class, 'showLoginForm']);
+
+Route::get('/custom-register', [App\Http\Controllers\Auth\RegisterController::class, 'showRegisterForm'])->name('register');
+
+
+// Route::get('custom-login', 'Auth\LoginController@showLoginForm')->name('custom.login');
+// Route::post('custom-login', 'Auth\LoginController@login')->name('custom.login.submit');
+
+
 
 
 //Admin Route

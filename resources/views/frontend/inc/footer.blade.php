@@ -5,7 +5,10 @@
 	            		<div class="col-sm-6 col-lg-3">
 	            			<div class="widget widget-about">
 	            				<img src="{{ asset('frontend')}}/assets/images/custom-logo/1-logo.png" class="footer-logo" alt="Footer Logo" width="125" height="25">
-	            				<p>Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. </p>
+
+	            				<!-- <p>Learn more about our company, its mission, vision, and values. Discover how we started, our journey so far, and our commitment to providing high-quality products and exceptional customer service. </p> -->
+
+	            				<p>Our commitment to providing high-quality products and exceptional customer service. </p>
 
 	            				<div class="social-icons">
 	            					<a href="#" class="social-icon" title="Facebook" target="_blank"><i class="icon-facebook-f"></i></a>
@@ -13,13 +16,13 @@
 	            					<a href="#" class="social-icon" title="Instagram" target="_blank"><i class="icon-instagram"></i></a>
 	            					<a href="#" class="social-icon" title="Youtube" target="_blank"><i class="icon-youtube"></i></a>
 	            					<a href="#" class="social-icon" title="Pinterest" target="_blank"><i class="icon-pinterest"></i></a>
-	            				</div><!-- End .soial-icons -->
-	            			</div><!-- End .widget about-widget -->
-	            		</div><!-- End .col-sm-6 col-lg-3 -->
+	            				</div>
+	            			</div>
+	            		</div>
 
 	            		<div class="col-sm-6 col-lg-3">
 	            			<div class="widget">
-	            				<h4 class="widget-title">Useful Links</h4><!-- End .widget-title -->
+	            				<h4 class="widget-title">Useful Links</h4>
 
 	            				<ul class="widget-list">	            					
 	            					<li><a href="#">How to shop on Elite-Commerce</a></li>
@@ -27,13 +30,13 @@
 									<li><a href="#">Contact us</a></li>	            						            					
 	            					<li><a href="{{ route('register') }}">Register</a></li>
 									<li><a href="#">FAQ</a></li>
-	            				</ul><!-- End .widget-list -->
-	            			</div><!-- End .widget -->
-	            		</div><!-- End .col-sm-6 col-lg-3 -->
+	            				</ul>
+	            			</div>
+	            		</div>
 
 	            		<div class="col-sm-6 col-lg-3">
 	            			<div class="widget">
-	            				<h4 class="widget-title">Customer Service</h4><!-- End .widget-title -->
+	            				<h4 class="widget-title">Customer Service</h4>
 
 	            				<ul class="widget-list">
 	            					<li><a href="#">Payment Methods</a></li>
@@ -42,13 +45,13 @@
 	            					<li><a href="#">Shipping</a></li>
 	            					<li><a href="#">Terms and conditions</a></li>
 	            					<li><a href="#">Privacy Policy</a></li>
-	            				</ul><!-- End .widget-list -->
-	            			</div><!-- End .widget -->
-	            		</div><!-- End .col-sm-6 col-lg-3 -->
+	            				</ul>
+	            			</div>
+	            		</div>
 
 	            		<div class="col-sm-6 col-lg-3">
 	            			<div class="widget">
-	            				<h4 class="widget-title">My Account</h4><!-- End .widget-title -->
+	            				<h4 class="widget-title">My Account</h4>
 
 	            				<ul class="widget-list">
 	            					<li><a href="{{ route('login') }}">Sign In</a></li>
@@ -56,12 +59,12 @@
 	            					<li><a href="#">My Wishlist</a></li>
 	            					<li><a href="#">Track My Order</a></li>
 	            					<li><a href="#">Help</a></li>
-	            				</ul><!-- End .widget-list -->
-	            			</div><!-- End .widget -->
-	            		</div><!-- End .col-sm-6 col-lg-3 -->
-	            	</div><!-- End .row -->
-	            </div><!-- End .container -->
-	        </div><!-- End .footer-middle -->
+	            				</ul>
+	            			</div>
+	            		</div>
+	            	</div>
+	            </div>
+	        </div>
 
 	        <div class="footer-bottom">
 	        	<div class="container">
@@ -77,7 +80,7 @@
 					
 	        		<figure class="footer-payments">
 	        			<img src="{{ asset('frontend')}}/assets/images/payments.png" alt="Payment methods" width="272" height="20">
-	        		</figure><!-- End .footer-payments -->
-	        	</div><!-- End .container -->
-	        </div><!-- End .footer-bottom -->
-        </footer><!-- End .footer -->
+	        		</figure>
+	        	</div>
+	        </div>
+        </footer>
