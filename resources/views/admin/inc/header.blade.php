@@ -147,7 +147,7 @@
                         <li class="icons">
                             <div class="user-img c-pointer-x">
                                 <span class="activity active"></span>
-                                <img src="{{ asset('backend')}}/assets/images/user/1.png" height="40" width="40" alt="avatar">
+                                <img src="{{ asset('backend')}}/assets/images/user/1.jpeg" height="40" width="40" alt="avatar">
                             </div>
                             <div class="drop-down dropdown-profile animated flipInX">
                                 <div class="dropdown-content-body">

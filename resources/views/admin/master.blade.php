@@ -12,7 +12,7 @@
     <title>@yield('title')</title>
     
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('backend')}}/assets/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('backend')}}/assets/images/favicon-1.png">
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="{{ asset('backend')}}/assets/plugins/owl.carousel/dist/css/owl.carousel.min.css">
     <link href="{{ asset('backend')}}/assets/plugins/fullcalendar/css/fullcalendar.min.css" rel="stylesheet">
