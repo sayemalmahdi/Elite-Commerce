@@ -12,7 +12,23 @@
                     <div class="breadcrumb-range-picker">
                         <span><i class="icon-calender"></i></span>
                       
-                        <span class="ml-1">June 19, 2023 - June 19, 2023</span>
+                        <!-- <span class="ml-1">June 19, 2023 - June 19, 2023</span> -->
+
+                        <!-- Dynamic Date Start -->
+
+                            <span class="ml-1">
+                                <?php
+                                    // $year = date('Y');
+                                    $year = date('l, j F Y');
+                                    // $storeName = "Elite-Commerce Store. All Rights Reserved.";
+
+                                    // echo "Copyright © $year $storeName";
+                                    echo "$year";
+                                ?>
+                            </span>
+
+                       <!-- Dynamic Date End -->
+
 
                     </div>
                 </div>
