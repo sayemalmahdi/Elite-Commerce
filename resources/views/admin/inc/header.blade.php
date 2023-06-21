@@ -201,20 +201,21 @@
                 <ul class="metismenu" id="menu">
                     <li class="nav-label">Dashboard</li>
                     <li>
-                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                        <a href="{{ route('admin.dashboard') }}">
                             <i class="icon-speedometer"></i><span class="nav-text">Dashboard</span>
                         </a>
+                        
+                    </li>
+
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-speedometer"></i><span class="nav-text">CRUD</span>
+                        </a>
                         <ul aria-expanded="false">
-                            <li><a href="{{ route('admin.dashboard') }}">Admin Overview</a></li>
-                            <li><a href="#">Custommer Overview</a></li>
-                            <li><a href="#">Employee Overview</a></li>
-                            <li><a href="#">Menus</a></li>
-                            <li><a href="#">Offer</a></li>
-                            <li><a href="#">Reservation</a></li>
-                            <li><a href="#">Employees</a></li>
-                            <li><a href="#">Custommer</a></li>
-                            <li><a href="#">Order</a></li>
-                            <li><a href="#">Packages</a></li>
+                            <li><a href="#">Category</a></li>
+                            <li><a href="#">Sub-Category</a></li>
+                            <li><a href="#">Brand</a></li>
+
                             
                         </ul>
                     </li>
