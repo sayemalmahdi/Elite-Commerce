@@ -18,6 +18,8 @@
     <link href="{{ asset('backend')}}/assets/plugins/fullcalendar/css/fullcalendar.min.css" rel="stylesheet">
     <!-- Chartist -->
     <link rel="stylesheet" href="{{ asset('backend')}}/assets/plugins/chartist/css/chartist.min.css">
+
+    <!-- Stylesheet -->
     <link href="{{ asset('backend')}}/main/css/style.css" rel="stylesheet">
 
 </head>

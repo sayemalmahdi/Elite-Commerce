@@ -38,6 +38,10 @@ Route::get('/custom-register', [App\Http\Controllers\Auth\RegisterController::cl
 //Admin Route
 Route::middleware(['auth', 'admin'])->group(function () {
 	Route::get('/admin/dashboard', [App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('admin.dashboard');
+	Route::get('/admin/categories', [App\Http\Controllers\Admin\Category\CategoryController::class, 'category'])->name('admin.categories');
+	
+	
+
 
 });
 

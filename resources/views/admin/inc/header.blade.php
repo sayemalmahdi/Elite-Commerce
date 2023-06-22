@@ -212,7 +212,7 @@
                             <i class="icon-speedometer"></i><span class="nav-text">CRUD</span>
                         </a>
                         <ul aria-expanded="false">
-                            <li><a href="#">Category</a></li>
+                            <li><a href="{{ route('admin.categories') }}">Category</a></li>
                             <li><a href="#">Sub-Category</a></li>
                             <li><a href="#">Brand</a></li>
 
