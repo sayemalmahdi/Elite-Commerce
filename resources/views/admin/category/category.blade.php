@@ -202,18 +202,26 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
 
-                    <form method="post" action="" enctype="multipart/form-data">
+                    <form method="post" action="{{ route('admin.store.category') }}" enctype="multipart/form-data">
                     @csrf
-
-                        <div class="modal-body">               
+                        <div class="modal-body"> 
+                            @if ($errors->any())
+                                <div class="alert alert-danger">
+                                    <ul>
+                                        @foreach ($errors->all() as $error)
+                                            <li>{{ $error }}</li>
+                                        @endforeach
+                                    </ul>
+                                </div>
+                            @endif              
                             <div class="mb-3">
                                 <label for="catname" class="col-form-label">Category Name:</label>
-                                <input type="text" class="form-control" id="catname">
+                                <input type="text" class="form-control" id="catname" name="category_name">
                                 <small id="emailHelp" class="form-text text-muted">Add a unique category name</small>
                             </div>
                             <div class="mb-3">
                                 <label for="caticon" class="col-form-label">Category Icon:</label>
-                                <input type="file" class="form-control-file" id="caticon">
+                                <input type="file" class="form-control-file" id="caticon" name="category_icon">
                                 <small id="emailHelp" class="form-text text-muted">Add a unique category icon</small>
                             </div>              
                         </div>
